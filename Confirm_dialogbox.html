@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <lable for="fname">First name:</lable>
+            <input type="text" id="fname" name="fname"><br>
+            <lable for="lname">Last name:</lable>
+            <input type="text" id="lname" name="lname"><br>
+            <lable for="iname">ID:</lable>
+            <input type="number" id="iname" name="iname"><br>
+            <lable for="gname">Gender</lable><br>
+            <input type="radio" id="fname" name="gname" value="female">
+            <lable for="fname">female</lable>
+            <input type="radio" id="mname" name="gname" value="male">
+            <lable for="mname">male</lable><br>
+            <input type="submit" value="Submit" onclick="Confirmation();">
+            <script type="text/javascript"> 
+                function Confirmation() { 
+                    var Val = confirm("Do you want to continue ?"); 
+                    if (Val == true) { 
+                        document.writeln(" CONTINUED!"); 
+            
+                    } else { 
+                        document.writeln("NOT CONTINUED!"); 
+                       
+                    } 
+                } 
+            </script> 
+</body>
+</html>
